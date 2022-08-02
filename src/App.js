@@ -11,10 +11,10 @@ import Main from "./components/Main/Main";
 */
 function App() {
   return (
-      <div id="App">
-        <Main />
-        <SectionOne />
-      </div>
+     <>
+      <Main />
+      <SectionOne />
+     </> 
   )
 }
 
