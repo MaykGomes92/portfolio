@@ -1,0 +1,3 @@
+Tirei o z-index dos traços dos menu, qualquer coisa botar denovo.
+Testar o botão.
+Texto '' Me Conheça '' não ta bem centralizado no centro.

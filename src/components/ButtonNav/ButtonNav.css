@@ -1,0 +1,7 @@
+.buttonNav{
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--orange);
+    border-radius: 50%;
+    background-color: transparent;
+}
