@@ -64,14 +64,14 @@ const SectionOne = () => {
       </div>
       <nav className="navButtons">
         <a
-          href="#!"
+          href="#shapeOrangeSectionOne"
           onClick={() => secaoAtual(1)}
           className={sectionAtual === 1 ? "ativo" : ""}
         >
           <ButtonNav />
         </a>
         <a
-          href="#!"
+          href="#secondText"
           onClick={() => secaoAtual(2)}
           className={sectionAtual === 2 ? "ativo" : ""}
         >

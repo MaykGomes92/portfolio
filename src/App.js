@@ -1,5 +1,4 @@
 import React from "react";
-import ButtonNav from "./components/ButtonNav/ButtonNav";
 import SectionOne from "./components/SectionOne/SectionOne";
 import Main from "./components/Main/Main";
 
@@ -10,6 +9,7 @@ import Main from "./components/Main/Main";
   atualmente ta na esquerda.
 */
 function App() {
+
   return (
      <>
       <Main />

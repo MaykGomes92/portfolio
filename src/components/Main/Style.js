@@ -168,7 +168,7 @@ export const Main = styled.main`
             margin: 0px;
           }
         }
-
+        
         .shadowButton {
           background: var(--orange-escuro);
           border: none;
@@ -182,6 +182,7 @@ export const Main = styled.main`
 
   .navButtons{
     display:flex;
+    font-size:30px;
     flex-direction: column;
     margin-left: 50px;
     position:fixed;
