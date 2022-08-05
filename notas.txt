@@ -1,2 +1,0 @@
-Botões de navegação fixo do lado esquerdo funcionando precisando apenas botar os HREF de acordo... Adicionar HREF também no button ''me conheça'' Falta fazer as sections pra adicionar os HREF
-Painel

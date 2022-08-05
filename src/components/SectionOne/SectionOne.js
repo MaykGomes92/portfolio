@@ -26,7 +26,7 @@ const SectionOne = () => {
       <div className="sobreMim">
         <div className="painel">
           <div className="quadradoOne">
-            <img src={myImg} alt="Minha foto" />
+            {/* <img src={myImg} alt="Minha foto" /> */}
           </div>
           <div className="quadradoTwo"></div>
         </div>
