@@ -1,3 +1,4 @@
+import { Children } from "react";
 import styled from "styled-components";
 
 export const Main = styled.main`
@@ -193,6 +194,14 @@ export const Main = styled.main`
 
     .ativo button{
       background:var(--orange);
+    }
+
+
+    a:nth-child(1) button{
+      background:  ${(props) => props.position < 500 ? 'var(--orange)' : 'none'};
+    }
+    a:nth-child(2) button{
+      background:  ${(props) => props.position > 520 ? 'var(--orange)' : 'none'};
     }
   }
 `;

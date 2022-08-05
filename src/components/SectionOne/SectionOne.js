@@ -1,23 +1,33 @@
 import React from "react";
 import * as S from "./Style";
 import myImg from "../../assets/imgPerfil.jpg";
+import { motion } from "framer-motion";
 
 const SectionOne = () => {
-  const [positionX, setPositionX] = React.useState(400);
-  const [positionY, setPositionY] = React.useState(500);
+  // const [positionX, setPositionX] = React.useState(400);
+  // const [positionY, setPositionY] = React.useState(500);
+  const [position, setPosition] = React.useState(0);
 
-  function coordenadaPainel(event) {
-    let posX = event.clientX;
-    let posY = event.clientY;
-    setPositionX(() => posX);
-    setPositionY(() => posY);
-  }
+  // function coordenadaPainel(event) {
+  //   let posX = event.clientX;
+  //   let posY = event.clientY;
+  //   setPositionX(() => posX);
+  //   setPositionY(() => posY);
+  // }
+
+
+  React.useEffect(() => {
+    window.addEventListener('scroll',() =>{
+        setPosition(window.pageYOffset)
+      })
+    },[position])
 
   return (
     <S.SectionOne
-      onMouseMove={coordenadaPainel}
-      positionX={positionX}
-      positionY={positionY}
+      // onMouseMove={coordenadaPainel}
+      // positionX={positionX}
+      // positionY={positionY}
+      position={position}
     >
       <h2>
         Sobre <span>Mim</span>
@@ -26,7 +36,7 @@ const SectionOne = () => {
       <div className="sobreMim">
         <div className="painel">
           <div className="quadradoOne">
-            {/* <img src={myImg} alt="Minha foto" /> */}
+            <img src={myImg} alt="Minha foto" />
           </div>
           <div className="quadradoTwo"></div>
         </div>
@@ -51,4 +61,4 @@ const SectionOne = () => {
   );
 };
 
-export default React.memo(SectionOne);
+export default SectionOne;

@@ -80,8 +80,8 @@ export const SectionOne = styled.section`
     .quadradoTwo {
       position: absolute;
       margin-top: 120px;
-      top: ${(event) => "-" + event.positionY / 32 + "px"};
-      left: ${(event) => "-" + event.positionX / 38 + "px"};
+      top: ${(event) => "-" + event.position / 20 + "px"};
+      left: ${(event) => "-" + event.position / 20 + "px"};
       width: 450px;
       height: 490px;
       background: var(--orange-escuro);
