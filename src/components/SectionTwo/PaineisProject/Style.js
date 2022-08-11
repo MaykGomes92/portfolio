@@ -14,6 +14,11 @@ export const PaineisProject = styled.div`
       background: var(--white);
       margin-left: 147px;
       z-index: 99;
+
+      img{
+        width:100%;
+        height:100%;
+    }
 }
 .quadradoTwo {
      position: absolute;
@@ -65,6 +70,11 @@ export const PaineisProject = styled.div`
         .iconesTec{
             margin-top:18px;
             margin-bottom: 65px;
+            width:400px;
+            display:flex;
+            img{
+                height:18px;
+            }
             img + img{
                 margin-left:15px;
             }

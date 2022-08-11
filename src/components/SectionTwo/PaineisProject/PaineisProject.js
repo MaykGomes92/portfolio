@@ -1,18 +1,14 @@
 import React from 'react'
 import * as S from './Style'
-import html from '../../../assets/html.png'
-import css from '../../../assets/css.png'
-import js from '../../../assets/js.png'
-import react from '../../../assets/react.png'
 import { FaLink } from 'react-icons/fa';
 import { BsGithub } from 'react-icons/bs';
 
-const PaineisProject = ({ nameProject, descricao, linkProjeto, linkGithub, imgProject, mLeft }) => {
+const PaineisProject = ({ nameProject, descricao, linkProjeto, linkGithub, imgProject, mLeft, html, css, js, reactRouter, react, styledComp }) => {
     return (
         <S.PaineisProject>
-            <div className="paineis" style={{marginLeft:mLeft}}>
+            <div className="paineis" style={{ marginLeft: mLeft }}>
                 <div className="quadradoOne">
-                    <img src={imgProject}/>
+                    <img src={imgProject} />
                 </div>
                 <div className="quadradoTwo" />
             </div>
@@ -24,13 +20,15 @@ const PaineisProject = ({ nameProject, descricao, linkProjeto, linkGithub, imgPr
                 <div className='tecs'>
                     <p>Tecnologias usadas:</p>
                     <div className='iconesTec'>
-                        <img src={html} alt='Ícone html ' />
-                        <img src={css} alt='Ícone css ' />
-                        <img src={js} alt='Ícone js ' />
-                        <img src={react} alt='Ícone react ' />
+                        {html && <img src={html} alt='Ícone html ' />}
+                        {css && <img src={css} alt='Ícone css ' />}
+                        {js && <img src={js} alt='Ícone js ' />}
+                        {react && <img src={react} alt='Ícone react ' />}
+                        {reactRouter && <img src={reactRouter} alt='Ícone react ' />}
+                        {styledComp && <img src={styledComp} alt='Ícone react ' />}
                     </div>
-                    <a href={linkProjeto} className='linkProject'><FaLink /></a>
-                    <a href={linkGithub} className='gitHubProject'><BsGithub /></a>
+                    <a rel='noopener' target='_blank' href={linkProjeto} className='linkProject'><FaLink /></a>
+                    <a rel='noopener' target='_blank' href={linkGithub} className='gitHubProject'><BsGithub /></a>
                 </div>
             </div>
         </S.PaineisProject>

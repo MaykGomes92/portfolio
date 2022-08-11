@@ -3,12 +3,6 @@ import SectionOne from "./components/SectionOne/SectionOne";
 import Main from "./components/Main/Main";
 import SectionTwo from "./components/SectionTwo/SectionTwo";
 
-/*
-  As primeiras bolinhas da esquerda que são de navegação
-  vão ser fixas, navegando pela pagina, as bolinhas 
-  dos projetos, vai ser um tab bar, botar ela na direita
-  atualmente ta na esquerda.
-*/
 function App() {
 
   return (
