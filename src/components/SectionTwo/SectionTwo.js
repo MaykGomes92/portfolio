@@ -44,8 +44,8 @@ const SectionTwo = () => {
         <>
           <PaineisProject html={html} react={react} css={css} js={js} linkProjeto='https://react-api-cep.vercel.app/' linkGithub='https://github.com/MaykGomes92/Procurador-de-Cep-React' imgProject={projeto5} nameProject='Buscador de Cep' descricao='Consumindo um Api, ele retorna várias informações ao inserir um CEP.' mLeft='228px' />
 
-          <PaineisProject linkProjeto='https://website-vikings-router-priv.vercel.app/'
-            linkGithub='https://github.com/MaykGomes92/WebSite-Vikings-ReactRouter' imgProject={projeto2} nameProject='Website Vikings' descricao='Projeto feito usando React Router e outras libs do React.' mLeft='350px' />
+          <PaineisProject html={html} react={react} css={css} js={js} linkProjeto='https://website-vikings-router-priv.vercel.app/'
+            linkGithub='https://github.com/MaykGomes92/WebSite-Vikings-ReactRouter' imgProject={projeto2} nameProject='Website Vikings' descricao='Projeto feito usando React Router e outras libs do React. Inpirado ' mLeft='350px' />
         </>
       )
     } else if (buttonNavAtivo === 4) {

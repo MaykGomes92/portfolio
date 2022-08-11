@@ -4,8 +4,6 @@ import styled from "styled-components";
 export const SectionTwo = styled.section`
 position:relative;
 background-color:var(--black);
-width:100%;
-min-height:100vh;
 .shapeOrange{
     position:absolute;
     transform:rotateZ(180deg);

@@ -9,12 +9,12 @@ export const PaineisProject = styled.div`
        z-index:99;
        margin-top:80px;
     .quadradoOne {
-      width: 291px;
-      height: 301px;
+      width: 400px;
+      height: 254px;
       background: var(--white);
       margin-left: 147px;
       z-index: 99;
-
+        border:1px solid rgba(255,255,255,.1);
       img{
         width:100%;
         height:100%;
@@ -26,8 +26,8 @@ export const PaineisProject = styled.div`
      left: -20px;
      z-index:-99;
      box-shadow:5px 5px 15px rgba(0,0,0,.8);
-     width: 291px;
-     height: 301px;
+     width: 400px;
+      height: 254px;
      background: var(--orange-escuro);
      margin-left: 147px;
     }
@@ -70,10 +70,12 @@ export const PaineisProject = styled.div`
         .iconesTec{
             margin-top:18px;
             margin-bottom: 65px;
-            width:400px;
+            max-width:450px;
             display:flex;
+            flex-wrap:wrap;
             img{
                 height:18px;
+                margin-top:10px;
             }
             img + img{
                 margin-left:15px;
