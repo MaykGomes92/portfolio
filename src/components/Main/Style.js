@@ -1,7 +1,8 @@
-import { Children } from "react";
+import React from "react";
 import styled from "styled-components";
 
 export const Main = styled.main`
+
   a:visited {
     color: transparent;
   }
@@ -41,7 +42,7 @@ export const Main = styled.main`
       height: 33.61px;
     }
   }
-  }
+  
 
   #iconWpp {
     position: absolute;
@@ -57,7 +58,7 @@ export const Main = styled.main`
       height: 33.61px;
     }
   }
-  }
+  
 
   #shapeOrangeSectionOne {
     position: absolute;
@@ -163,7 +164,7 @@ export const Main = styled.main`
           position: absolute;
           margin-top: 5px;
           margin-left: -5px;
-          transition: 0.5s;
+          transition: .2s;
           cursor: pointer;
           :hover {
             margin: 0px;

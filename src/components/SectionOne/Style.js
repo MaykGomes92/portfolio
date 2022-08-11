@@ -70,7 +70,6 @@ export const SectionOne = styled.section`
       margin-left: 147px;
       margin-top: 127px;
       z-index: 99;
-
       img {
         width: 100%;
         border-radius: 50%;
@@ -80,8 +79,9 @@ export const SectionOne = styled.section`
     .quadradoTwo {
       position: absolute;
       margin-top: 120px;
-      top: ${(event) => "-" + event.position / 20 + "px"};
-      left: ${(event) => "-" + event.position / 20 + "px"};
+      top:0px;
+      box-shadow:5px 5px 15px rgba(0,0,0,.8);
+      left: 0px;
       width: 450px;
       height: 490px;
       background: var(--orange-escuro);

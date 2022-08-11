@@ -1,34 +1,21 @@
 import React from "react";
 import * as S from "./Style";
 import myImg from "../../assets/imgPerfil.jpg";
-import { motion } from "framer-motion";
+import {
+  motion,
+  useTransform,
+  useViewportScroll,
+} from "framer-motion";
 
 const SectionOne = () => {
-  // const [positionX, setPositionX] = React.useState(400);
-  // const [positionY, setPositionY] = React.useState(500);
-  const [position, setPosition] = React.useState(0);
-
-  // function coordenadaPainel(event) {
-  //   let posX = event.clientX;
-  //   let posY = event.clientY;
-  //   setPositionX(() => posX);
-  //   setPositionY(() => posY);
-  // }
-
-
-  React.useEffect(() => {
-    window.addEventListener('scroll',() =>{
-        setPosition(window.pageYOffset)
-      })
-    },[position])
+  const { scrollY } = useViewportScroll();
+  const y1 = useTransform(scrollY, 
+    [0, 500, 500, 800],
+     [0, -40, -40, 40],
+     );
 
   return (
-    <S.SectionOne
-      // onMouseMove={coordenadaPainel}
-      // positionX={positionX}
-      // positionY={positionY}
-      position={position}
-    >
+    <S.SectionOne>
       <h2>
         Sobre <span>Mim</span>
       </h2>
@@ -38,7 +25,7 @@ const SectionOne = () => {
           <div className="quadradoOne">
             <img src={myImg} alt="Minha foto" />
           </div>
-          <div className="quadradoTwo"></div>
+          <motion.div style={{ y: y1, x: y1}} className="quadradoTwo" />
         </div>
         <div className="textoBio">
           <h1 className="firstText">

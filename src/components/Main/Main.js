@@ -103,7 +103,7 @@ const SectionOne = () => {
           className={sectionAtual === 1 ? "ativo" : ""}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1 }}
+          transition={{delay: 1.2, duration: 1 }}
         >
           <ButtonNav />
         </motion.a>
@@ -113,7 +113,7 @@ const SectionOne = () => {
           className={sectionAtual === 2 ? "ativo" : ""}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 0.3, duration: 1 }}
+          transition={{ delay: 1.4, duration: 1 }}
         >
           <ButtonNav />
         </motion.a>
@@ -123,7 +123,7 @@ const SectionOne = () => {
           className={sectionAtual === 3 ? "ativo" : ""}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 1 }}
+          transition={{ delay: 1.6, duration: 1 }}
         >
           <ButtonNav />
         </motion.a>
@@ -133,7 +133,7 @@ const SectionOne = () => {
           className={sectionAtual === 4 ? "ativo" : ""}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 0.7, duration: 1 }}
+          transition={{ delay: 1.8, duration: 1 }}
         >
           <ButtonNav />
         </motion.a>
