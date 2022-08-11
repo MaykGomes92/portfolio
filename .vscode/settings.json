@@ -1,9 +1,11 @@
 {
-    "editor.wordWrap": "on",
-    "files.exclude": {
-        "package-lock.json ":true,
-        "node_modules":true,
-        "package.json ":true,
-        ".gitignore ":true,
-    }
+  "editor.wordWrap": "on",
+  "workbench.tree.indent": 20,
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "package-lock.json ": true,
+    "node_modules": true,
+    "package.json ": true,
+    ".gitignore ": true
+  }
 }

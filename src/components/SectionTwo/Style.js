@@ -16,7 +16,7 @@ min-height:100vh;
 
 .myPort{
     margin-left:140px;
-    padding-top:200px;
+    padding-top:40px;
     font-style: normal;
 font-weight: 500;
 font-size: 36px;
