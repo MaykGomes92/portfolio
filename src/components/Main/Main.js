@@ -108,7 +108,7 @@ const SectionOne = () => {
           <ButtonNav />
         </motion.a>
         <motion.a
-          href="#secondText"
+          href="#firstText"
           onClick={() => secaoAtual(2)}
           className={sectionAtual === 2 ? "ativo" : ""}
           initial={{ opacity: 0 }}
@@ -118,7 +118,7 @@ const SectionOne = () => {
           <ButtonNav />
         </motion.a>
         <motion.a
-          href="#!"
+          href="#shapeSectionTwo"
           onClick={() => secaoAtual(3)}
           className={sectionAtual === 3 ? "ativo" : ""}
           initial={{ opacity: 0 }}

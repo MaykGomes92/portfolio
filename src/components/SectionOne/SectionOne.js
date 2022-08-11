@@ -29,7 +29,7 @@ const SectionOne = () => {
           <motion.div style={{ y: y1, x: y1 }} className="quadradoTwo" />
         </div>
         <div className="textoBio">
-          <h1 className="firstText">
+          <h1 id="firstText">
             <span>L</span>orem Ipsum is simply dummy text of the printing and
             typesetting industry. Lorem Ipsum has bee release of Letraset sheets
             containing Lorem Ipsum passages, and more recently with desktop

@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const SectionOne = styled.section`
   background: var(--black);
   width: 100%;
+  padding-bottom:130px;
   h2 {
     margin-left: 200px;
     font-style: normal;
@@ -25,7 +26,7 @@ export const SectionOne = styled.section`
       flex-direction: column;
       flex-wrap: wrap-reverse;
       width: 100%;
-      .firstText {
+      #firstText {
         margin-right: auto;
         max-width: 585px;
         width: 100%;
