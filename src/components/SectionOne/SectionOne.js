@@ -9,10 +9,11 @@ import {
 
 const SectionOne = () => {
   const { scrollY } = useViewportScroll();
-  const y1 = useTransform(scrollY, 
+  const y1 = useTransform(scrollY,
     [0, 500, 500, 800],
-     [0, -40, -40, 40],
-     );
+    [0, -40, -40, 40],
+  );
+
 
   return (
     <S.SectionOne>
@@ -25,7 +26,7 @@ const SectionOne = () => {
           <div className="quadradoOne">
             <img src={myImg} alt="Minha foto" />
           </div>
-          <motion.div style={{ y: y1, x: y1}} className="quadradoTwo" />
+          <motion.div style={{ y: y1, x: y1 }} className="quadradoTwo" />
         </div>
         <div className="textoBio">
           <h1 className="firstText">
