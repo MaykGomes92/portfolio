@@ -1,7 +1,7 @@
 import React from "react";
-import SectionOne from "./components/SectionOne/SectionOne";
-import Main from "./components/Main/Main";
-import SectionTwo from "./components/SectionTwo/SectionTwo";
+import SectionOne from "./components/SectionOne/index";
+import Main from "./components/Main/index";
+import SectionTwo from "./components/SectionTwo/index";
 
 function App() {
 
