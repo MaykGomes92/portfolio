@@ -7,6 +7,7 @@ import projeto2 from '../../assets/projeto2.jpg'
 import projeto3 from '../../assets/projeto3.jpg'
 import projeto4 from '../../assets/projeto4.jpg'
 import projeto5 from '../../assets/projeto5.jpg'
+import projeto6 from '../../assets/projeto6.jpg'
 import PaineisProject from './PaineisProject/PaineisProject'
 import ButtonNav from '../ButtonNav/ButtonNav'
 
@@ -95,8 +96,8 @@ const SectionTwo = () => {
             initial='variantA'
             animate='variantB'>
 
-            <PaineisProject html={html} react={react} css={css} js={js} linkProjeto='https://website-vikings-router-priv.vercel.app/'
-              linkGithub='https://github.com/MaykGomes92/WebSite-Vikings-ReactRouter' imgProject={projeto2} nameProject='Website Vikings' descricao='Projeto feito usando React Router e outras libs do React. Inpirado ' mLeft='500px' />
+            <PaineisProject html={html} css={css} js={js} linkProjeto='https://lista-tarefas-two.vercel.app/'
+              linkGithub='https://github.com/MaykGomes92/Lista-de-tarefas' imgProject={projeto6} nameProject='Lista de Tarefas' descricao='Um app de salvar anotações, seus dados ficam salvos no localStorage. Com efeitos de som e opção de apagar suas anotações.' mLeft='500px' />
           </motion.h2>
         </>
       )
