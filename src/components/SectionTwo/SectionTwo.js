@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 import * as S from './Style'
 import shape from '../../assets/shape.png'
 import projeto1 from '../../assets/reactSeries.jpg'
@@ -20,41 +21,103 @@ const SectionTwo = () => {
 
   const [buttonNavAtivo, setButtonNavAtivo] = React.useState(1)
 
+  const variantAnimationA = {
+    variantA: {
+      opacity: 0, x: '110%'
+    },
+    variantB: {
+      opacity: 1, x: 0,
+      transition: { delay: 0.1, duration: 0.8, type: 'spring', damping: 12 }
+    }
+  }
+  const variantAnimationB = {
+    variantA: {
+      opacity: 0, x: '110%'
+    },
+    variantB: {
+      opacity: 1, x: 0,
+      transition: { delay: 0.3, duration: 0.8, type: 'spring', damping: 12 }
+    }
+  }
+
   const projetosNav = () => {
     if (buttonNavAtivo === 1) {
       return (
         <>
-          <PaineisProject html={html} css={css} js={js} react={react} styledComp={styledComp} reactRouter={reactRouter}
-            linkProjeto='https://react-series.vercel.app/' linkGithub='https://github.com/MaykGomes92/React-Series' imgProject={projeto1} nameProject='Website Séries' descricao=' O projeto consiste em ser um site de séries completo, tendo todas as séries populares e existentes da api IMDb.' mLeft='228px' />
+          <motion.div
+            variants={variantAnimationA}
+            initial='variantA'
+            animate='variantB'>
+            <PaineisProject html={html} css={css} js={js} react={react} styledComp={styledComp} reactRouter={reactRouter}
+              linkProjeto='https://react-series.vercel.app/' linkGithub='https://github.com/MaykGomes92/React-Series' imgProject={projeto1} nameProject='Website Séries' descricao=' O projeto consiste em ser um site de séries completo, tendo todas as séries populares e existentes da api IMDb.' mLeft='228px' />
+          </motion.div>
 
-          <PaineisProject html={html} css={css} js={js} react={react} reactRouter={reactRouter} linkProjeto='https://website-vikings-router-priv.vercel.app/'
-            linkGithub='https://github.com/MaykGomes92/WebSite-Vikings-ReactRouter' imgProject={projeto2} nameProject='Website Vikings' descricao='Projeto feito usando React Router e outras libs do React. Inspirado na série Vikings.' mLeft='350px' />
+          <motion.div
+            variants={variantAnimationB}
+            initial='variantA'
+            animate='variantB'>
+
+            <PaineisProject html={html} css={css} js={js} react={react} reactRouter={reactRouter} linkProjeto='https://website-vikings-router-priv.vercel.app/'
+              linkGithub='https://github.com/MaykGomes92/WebSite-Vikings-ReactRouter' imgProject={projeto2} nameProject='Website Vikings' descricao='Projeto feito usando React Router e outras libs do React. Inspirado na série Vikings.' mLeft='500px' />
+          </motion.div>
         </>
       )
     } else if (buttonNavAtivo === 2) {
       return (
         <>
-          <PaineisProject html={html} css={css} js={js} linkProjeto='https://projeto-web-site-car-q9pp4diuu-mayk-gomes98-hotmailcom.vercel.app/' linkGithub='https://github.com/MaykGomes92/projeto-web-site-car' imgProject={projeto3} nameProject='Mini Game Ballons' descricao='Um mini game feito em Html, Css e Js puro. Conta com 3 dificuldade, pause e um placar.' mLeft='228px' />
+          <motion.h1
+            variants={variantAnimationA}
+            initial='variantA'
+            animate='variantB'>
+            <PaineisProject html={html} css={css} js={js} linkProjeto='https://mini-game-ballons-priv.vercel.app/' linkGithub='https://github.com/MaykGomes92/Mini-Game-Ballons' imgProject={projeto3} nameProject='Mini Game Ballons' descricao='Um mini game feito em Html, Css e Js puro. Conta com 3 dificuldade, pause e um placar.' mLeft='228px' />
+          </motion.h1>
 
-          <PaineisProject html={html} react={react} css={css} js={js} linkProjeto='https://projeto-web-site-car-q9pp4diuu-mayk-gomes98-hotmailcom.vercel.app/' linkGithub='https://github.com/MaykGomes92/projeto-web-site-car' imgProject={projeto4} nameProject='Mercedez' descricao='Com bastante animações Keyframes, um site inspirado por carros de corrida e campeões.' mLeft='350px' />
+          <motion.h1
+            variants={variantAnimationB}
+            initial='variantA'
+            animate='variantB'>
+            <PaineisProject html={html} react={react} css={css} js={js} linkProjeto='https://projeto-web-site-car-q9pp4diuu-mayk-gomes98-hotmailcom.vercel.app/' linkGithub='https://github.com/MaykGomes92/projeto-web-site-car' imgProject={projeto4} nameProject='Mercedez' descricao='Com bastante animações Keyframes, um site inspirado por carros de corrida e campeões.' mLeft='500px' />
+          </motion.h1>
         </>
       )
     } else if (buttonNavAtivo === 3) {
       return (
         <>
-          <PaineisProject html={html} react={react} css={css} js={js} linkProjeto='https://react-api-cep.vercel.app/' linkGithub='https://github.com/MaykGomes92/Procurador-de-Cep-React' imgProject={projeto5} nameProject='Buscador de Cep' descricao='Consumindo um Api, ele retorna várias informações ao inserir um CEP.' mLeft='228px' />
+          <motion.h2
+            variants={variantAnimationA}
+            initial='variantA'
+            animate='variantB'>
+            <PaineisProject html={html} react={react} css={css} js={js} linkProjeto='https://react-api-cep.vercel.app/' linkGithub='https://github.com/MaykGomes92/Procurador-de-Cep-React' imgProject={projeto5} nameProject='Buscador de Cep' descricao='Consumindo um Api, ele retorna várias informações ao inserir um CEP.' mLeft='228px' />
+          </motion.h2>
 
-          <PaineisProject html={html} react={react} css={css} js={js} linkProjeto='https://website-vikings-router-priv.vercel.app/'
-            linkGithub='https://github.com/MaykGomes92/WebSite-Vikings-ReactRouter' imgProject={projeto2} nameProject='Website Vikings' descricao='Projeto feito usando React Router e outras libs do React. Inpirado ' mLeft='350px' />
+          <motion.h2
+            variants={variantAnimationB}
+            initial='variantA'
+            animate='variantB'>
+
+            <PaineisProject html={html} react={react} css={css} js={js} linkProjeto='https://website-vikings-router-priv.vercel.app/'
+              linkGithub='https://github.com/MaykGomes92/WebSite-Vikings-ReactRouter' imgProject={projeto2} nameProject='Website Vikings' descricao='Projeto feito usando React Router e outras libs do React. Inpirado ' mLeft='500px' />
+          </motion.h2>
         </>
       )
     } else if (buttonNavAtivo === 4) {
       return (
         <>
-          <PaineisProject linkProjeto='https://react-series.vercel.app/' linkGithub='https://github.com/MaykGomes92/React-Series' imgProject={projeto1} nameProject='Website Séries' descricao=' O projeto consiste em ser um site de séries completo, tendo todas as séries populares e existentes da api IMDb.' mLeft='228px' />
+          <motion.h3
+            variants={variantAnimationA}
+            initial='variantA'
+            animate='variantB'>
 
-          <PaineisProject linkProjeto='https://website-vikings-router-priv.vercel.app/'
-            linkGithub='https://github.com/MaykGomes92/WebSite-Vikings-ReactRouter' imgProject={projeto2} nameProject='Website Vikings' descricao='Projeto feito usando React Router e outras libs do React.' mLeft='350px' />
+            <PaineisProject linkProjeto='https://react-series.vercel.app/' linkGithub='https://github.com/MaykGomes92/React-Series' imgProject={projeto1} nameProject='Website Séries' descricao=' O projeto consiste em ser um site de séries completo, tendo todas as séries populares e existentes da api IMDb.' mLeft='228px' />
+          </motion.h3>
+
+          <motion.h3
+            variants={variantAnimationB}
+            initial='variantA'
+            animate='variantB'>
+            <PaineisProject linkProjeto='https://website-vikings-router-priv.vercel.app/'
+              linkGithub='https://github.com/MaykGomes92/WebSite-Vikings-ReactRouter' imgProject={projeto2} nameProject='Website Vikings' descricao='Projeto feito usando React Router e outras libs do React.' mLeft='500px' />
+          </motion.h3>
         </>
       )
     } else return

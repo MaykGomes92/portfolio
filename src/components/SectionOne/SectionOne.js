@@ -17,7 +17,7 @@ const SectionOne = () => {
 
   return (
     <S.SectionOne>
-      <h2>
+      <h2 id="linkA" >
         Sobre <span>Mim</span>
       </h2>
 

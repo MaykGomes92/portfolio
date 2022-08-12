@@ -57,6 +57,7 @@ export const PaineisProject = styled.div`
     }
 
     .tecs{
+        margin-bottom:20px;
         p{
             font-style: normal;
             font-weight: 300;
@@ -69,7 +70,7 @@ export const PaineisProject = styled.div`
 
         .iconesTec{
             margin-top:18px;
-            margin-bottom: 65px;
+            margin-bottom: 50px;
             max-width:450px;
             display:flex;
             flex-wrap:wrap;
@@ -87,11 +88,19 @@ export const PaineisProject = styled.div`
             margin-right:32.39px;
             cursor:pointer;
             font-size:20px;
+            transition:.3s;
+            :hover{
+                color:var(--orange);
+            }
         }
         .gitHubProject{
             color:var(--white);
             cursor:pointer;
             font-size:20px;
+            transition:.3s;
+            :hover{
+                color:var(--orange);
+            }
         }
     }
 }
