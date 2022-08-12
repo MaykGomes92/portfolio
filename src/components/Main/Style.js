@@ -198,20 +198,24 @@ export const Main = styled.main`
 
 
     a:nth-child(1) button{
-      border:2px solid ${(props) => props.position > 1120 ? 'var(--black)' : 'none'};
       background:  ${(props) => props.position < 500 ? 'var(--orange)' : 'none'};
+
+      border:2px solid ${(props) => props.position > 1120 && props.position < 1800 ? 'var(--black)' : 'orange'};
     }
     a:nth-child(2) button{
       background:  ${(props) => props.position > 520 && props.position < 1050 ? 'var(--orange)' : 'none'};
-      border:2px solid ${(props) => props.position > 1070 ? 'var(--black)' : 'none'};
+
+      border:2px solid ${(props) => props.position > 1070 && props.position < 1800 ? 'var(--black)' : 'orange'};
     }
     a:nth-child(3) button{
       background:  ${(props) => props.position > 1050 ? 'var(--black)' : 'none'};
-      border:2px solid ${(props) => props.position > 1060 ? 'var(--black)' : 'none'};
+
+      border:2px solid ${(props) => props.position > 1060 && props.position < 1800 ? 'var(--black)' : 'orange'};
     }
     a:nth-child(4) button{
-      /* background:  ${(props) => props.position > 1200 ? 'var(--black)' : 'none'}; */
-      border:2px solid ${(props) => props.position > 1050 ? 'var(--black)' : 'none'};
+      background:  ${(props) => props.position > 1850 ? 'var(--orange)' : 'none'};
+
+      border:2px solid ${(props) => props.position > 1050 && props.position < 1800 ? 'var(--black)' : 'orange'};
     }
   }
 `;

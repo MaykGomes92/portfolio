@@ -16,7 +16,7 @@ const PaineisProject = ({ nameProject, descricao, linkProjeto, linkGithub, imgPr
             opacity:[0,.5,1,0,.6,1],
             x:-30,
             y:-30,
-            transition:{delay:1,duration:1},
+            transition:{delay:.8,duration:1},
         }
     }
 

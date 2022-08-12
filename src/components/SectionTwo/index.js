@@ -118,7 +118,7 @@ const SectionTwo = () => {
             variants={variantAnimationB}
             initial='variantA'
             animate='variantB'>
-            <PaineisProject linkProjeto='https://github.com/MaykGomes92'
+            <PaineisProject html={html} css={css} js={js} react={react} reactRouter={reactRouter} linkProjeto='https://github.com/MaykGomes92'
               linkGithub='https://github.com/MaykGomes92' imgProject={emConstru} nameProject='Em Construção' descricao='Novos projetos estão sendo feitos, irei postando os melhores aqui o/.' mLeft='500px' />
           </motion.h3>
         </>
