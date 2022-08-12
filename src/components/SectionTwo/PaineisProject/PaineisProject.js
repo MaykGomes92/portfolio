@@ -2,15 +2,35 @@ import React from 'react'
 import * as S from './Style'
 import { FaLink } from 'react-icons/fa';
 import { BsGithub } from 'react-icons/bs';
+import { motion } from 'framer-motion';
 
 const PaineisProject = ({ nameProject, descricao, linkProjeto, linkGithub, imgProject, mLeft, html, css, js, reactRouter, react, styledComp }) => {
+
+    const variantAnimation = {
+        variantA:{
+            opacity:0,
+            x:40,
+            y:40,
+        },
+        variantB:{
+            opacity:[0,.5,1,0,.6,1],
+            x:-30,
+            y:-30,
+            transition:{delay:1,duration:1},
+        }
+    }
+
     return (
         <S.PaineisProject>
             <div className="paineis" style={{ marginLeft: mLeft }}>
                 <div className="quadradoOne">
-                    <img src={imgProject} />
+                    <img src={imgProject} alt='Imagem do projeto'/>
                 </div>
-                <div className="quadradoTwo" />
+                <motion.div className="quadradoTwo"
+                 variants={variantAnimation}
+                 initial='variantA'
+                 animate='variantB'
+                 />
             </div>
 
             <div className='content'>

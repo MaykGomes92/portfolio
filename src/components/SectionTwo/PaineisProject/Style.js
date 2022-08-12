@@ -22,8 +22,8 @@ export const PaineisProject = styled.div`
 }
 .quadradoTwo {
      position: absolute;
-     top:-20px;
-     left: -20px;
+     top:0;
+     left: 0;
      z-index:-99;
      box-shadow:5px 5px 15px rgba(0,0,0,.8);
      width: 400px;
