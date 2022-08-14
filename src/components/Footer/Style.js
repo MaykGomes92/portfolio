@@ -56,4 +56,30 @@ h1{
             color:var(--orange);
         }
     }
+
+    @media(max-width: 575px){
+        margin:auto;
+        h1{
+            font-size:3rem;
+        }
+        p{
+            font-size:1.5rem;
+            text-align:center;
+            width:100%;
+        }
+        .buttonsNav{
+        display:flex;
+        flex-wrap:wrap;
+        margin-top:80px;
+        justify-content: center;
+        width:80%;
+        div + div{
+            margin-left:70px;
+        }
+    }
+    .creditos{
+        margin-left:5px;
+        font-size:10px;
+    }
+    }
 `

@@ -157,4 +157,18 @@ export const SectionOne = styled.section`
   }
   
 }
+
+@media(max-width:575px){
+  .sobreMim{
+
+    .quadradoOne{
+      width:250px;
+      height:250px;
+    }
+    .quadradoTwo{
+      width:250px;
+      height:250px;
+    }
+  }
+}
 `;

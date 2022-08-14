@@ -32,4 +32,26 @@ export const Buttons = styled.div`
             background-color:var(--orange-escuro);
         }
     }
+
+    @media(max-width: 875px){
+        .container{
+            width:40px;
+         .btnPrincipal{
+            width:100px;
+            height:100px;
+            line-height:110px;
+            font-size:30px;
+            bottom:47px;
+            left:15px;
+            :hover{
+              bottom:67px;
+              left:0px;
+            }
+         }
+         .shadowButton{
+            width:100px;
+            height:100px;
+         }
+        }
+    }
 `

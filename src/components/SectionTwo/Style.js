@@ -106,23 +106,34 @@ padding-right:20px;
 @media(max-width:575px){
 
     .buttonsNavProjects{
-        right:5px;
+        right:20px;
     }
 
     .motionsPainel:last-child{
-        margin-left:-450px;
+        margin-left:-250px;
+        .content{
+            margin-left:330px;
+        }
     }
     .myPort{
         font-size:1.5rem;
         margin-top:-80px;
     }
     .motionsPainel{
+        margin:auto;
+        margin-left:0;
         margin-top:15px;
         .content{
+            margin:auto;
             h1{
             font-size:1rem;
+                text-align:center;
+                margin:auto;
         }
         p{
+            text-align:center;
+            width:250px;
+            margin:auto;
             font-size:.7rem;
         }
         }

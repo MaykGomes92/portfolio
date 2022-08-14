@@ -108,30 +108,40 @@ export const PaineisProject = styled.div`
 @media(max-width:575px){
     display:flex;
     align-items:flex-start;
-    
-   .paineis {
-       margin-top:80px;
-    .quadradoOne {
-      margin-left: 0;
-    }
-.quadradoTwo {
-     margin-left: 0;
-    }
+    flex-direction:column;
+    .paineis {
+        margin-top:80px;
+        .quadradoOne {
+            margin-left:-150px;            
+        }
+    .quadradoTwo {
+        margin-left:-150px;
+        }
 }
 
 .content{
     margin-top:8px;
     margin-left:10px;
     margin-top:25px;
+    margin:auto;
+    text-align:center;
+    h1{
+    color:var(--orange-escuro);
+    }
     .tecs{
         p{
         color: var(--orange-escuro);
-            margin-left:80px;
+            margin-left:30px;
         }
-        margin-left:-70px;
         .iconesTec{
+            margin:auto;
             margin-bottom:20px;
-                img + img{
+            img{
+            text-align:center;
+                margin:auto;
+                margin-top:5px;
+            }
+            img + img{
                     margin-left:5px;
                 }
             }
