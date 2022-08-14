@@ -48,6 +48,7 @@ const SectionTwo = () => {
       return (
         <>
           <motion.div
+            className='motionsPainel'
             variants={variantAnimationA}
             initial='variantA'
             animate='variantB'>
@@ -55,7 +56,9 @@ const SectionTwo = () => {
               linkProjeto='https://react-series.vercel.app/' linkGithub='https://github.com/MaykGomes92/React-Series' imgProject={projeto1} nameProject='Website Séries' descricao=' O projeto consiste em ser um site de séries completo, tendo todas as séries populares e existentes da api IMDb.' mLeft='228px' />
           </motion.div>
 
+          className='motionsPainel'
           <motion.div
+            className='motionsPainel'
             variants={variantAnimationB}
             initial='variantA'
             animate='variantB'>
@@ -69,6 +72,7 @@ const SectionTwo = () => {
       return (
         <>
           <motion.h1
+            className='motionsPainel'
             variants={variantAnimationA}
             initial='variantA'
             animate='variantB'>
@@ -76,6 +80,7 @@ const SectionTwo = () => {
           </motion.h1>
 
           <motion.h1
+            className='motionsPainel'
             variants={variantAnimationB}
             initial='variantA'
             animate='variantB'>
@@ -87,6 +92,7 @@ const SectionTwo = () => {
       return (
         <>
           <motion.h2
+            className='motionsPainel'
             variants={variantAnimationA}
             initial='variantA'
             animate='variantB'>
@@ -94,6 +100,7 @@ const SectionTwo = () => {
           </motion.h2>
 
           <motion.h2
+            className='motionsPainel'
             variants={variantAnimationB}
             initial='variantA'
             animate='variantB'>
@@ -107,6 +114,7 @@ const SectionTwo = () => {
       return (
         <>
           <motion.h3
+            className='motionsPainel'
             variants={variantAnimationA}
             initial='variantA'
             animate='variantB'>
@@ -115,6 +123,7 @@ const SectionTwo = () => {
           </motion.h3>
 
           <motion.h3
+            className='motionsPainel'
             variants={variantAnimationB}
             initial='variantA'
             animate='variantB'>

@@ -89,4 +89,72 @@ export const SectionOne = styled.section`
       margin-left: 147px;
     }
   }
+
+  @media(max-width:1350px){
+
+    #linkA{
+      margin-bottom:30px;
+    }
+    .sobreMim{
+      margin:auto;
+      .painel{
+        margin:auto;
+        margin-left:50px;
+      }
+      .quadradoOne{
+        width:350px;
+        height:350px;
+        margin:auto;
+      }
+      
+      .quadradoTwo{
+        width:350px;
+        height:350px;
+        margin:auto;
+      }
+    }
+    
+    .sobreMim {
+      .textoBio{
+        margin-top:50px;
+        justify-content:center;
+        align-items:center;
+        #firstText{
+          font-size:1.3rem;   
+          margin:0;
+        }
+        #secondText{
+          font-size:1.3rem;   
+        }
+      }
+    }
+  }
+  
+@media(max-width:975px){
+
+  h2{
+    text-align:center;
+    margin:auto;
+  }
+
+  .sobreMim{
+      flex-direction:column;
+      margin:auto;
+      .painel{
+          margin:auto;
+  }
+  .quadradoOne{
+    width:350px;
+    height:350px;
+    margin:auto;
+  }
+
+  .quadradoTwo{
+      width:350px;
+      height:350px;
+      margin:auto;
+    }
+  }
+  
+}
 `;

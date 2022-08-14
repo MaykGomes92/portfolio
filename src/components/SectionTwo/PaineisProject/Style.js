@@ -104,4 +104,38 @@ export const PaineisProject = styled.div`
         }
     }
 }
-`
+
+@media(max-width:575px){
+    display:flex;
+    align-items:flex-start;
+    
+   .paineis {
+       margin-top:80px;
+    .quadradoOne {
+      margin-left: 0;
+    }
+.quadradoTwo {
+     margin-left: 0;
+    }
+}
+
+.content{
+    margin-top:8px;
+    margin-left:10px;
+    margin-top:25px;
+    .tecs{
+        p{
+        color: var(--orange-escuro);
+            margin-left:80px;
+        }
+        margin-left:-70px;
+        .iconesTec{
+            margin-bottom:20px;
+                img + img{
+                    margin-left:5px;
+                }
+            }
+        }
+}
+}
+`;

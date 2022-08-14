@@ -6,7 +6,8 @@ import { motion } from 'framer-motion';
 
 const PaineisProject = ({ nameProject, descricao, linkProjeto, linkGithub, imgProject, mLeft, html, css, js, reactRouter, react, styledComp }) => {
 
-    const variantAnimation = {
+   
+    const variantAnimation = window.innerWidth > 750 ?{
         variantA:{
             opacity:0,
             x:40,
@@ -17,6 +18,15 @@ const PaineisProject = ({ nameProject, descricao, linkProjeto, linkGithub, imgPr
             x:-30,
             y:-30,
             transition:{delay:.8,duration:1},
+        }
+    } : {
+        variantA:{
+            x:20,
+            y:20,
+        },
+        variantB:{
+            x:-15,
+            y:-15,
         }
     }
 

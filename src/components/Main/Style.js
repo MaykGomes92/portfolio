@@ -218,4 +218,88 @@ export const Main = styled.main`
       border:2px solid ${(props) => props.position > 1050 && props.position < 1800 ? 'var(--black)' : 'orange'};
     }
   }
+
+  @media (max-width:975px){
+    .information {
+      .sobre {
+        h1 {
+          position:relative;
+        z-index:9999;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 97px;
+        letter-spacing: 0.02em;
+        color: var(--white);
+        span {
+          color: orange;
+        }
+      }
+      h3 {
+        position:relative;
+        z-index:9999;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: 0.02em;
+        color: var(--white);
+      }
+
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;         position:relative;
+        z-index:9999;
+        color: var(--white);
+        letter-spacing: 0.005em;
+        margin-top:16px;
+        span {
+          margin-left: 5px;
+          padding: 0.8px;
+          background-color: var(--orange-escuro);
+          color: red;
+        }
+      }
+
+      .buttons {
+        margin-top: 48px;
+        .buttonConheca {
+          text-decoration: none;
+          border: none;
+          background: var(--orange);
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 23px;
+          letter-spacing: 0.02em;
+          color: white;
+          padding-top: 10px;
+          width: 159px;
+          height: 43px;
+          position: absolute;
+          margin-top: 5px;
+          margin-left: -5px;
+          transition: .2s;
+          cursor: pointer;
+          :hover {
+            margin: 0px;
+          }
+        }
+        
+        .shadowButton {
+          background: var(--orange-escuro);
+          border: none;
+          z-index: 99;
+          width: 159px;
+          height: 43px;
+        }
+      }
+    }
+  }
+    .navButtons{
+      display:none;
+    }
+  }
 `;

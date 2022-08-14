@@ -4,6 +4,7 @@ import styled from "styled-components";
 export const SectionTwo = styled.section`
 position:relative;
 background-color:var(--black);
+padding-right:20px;
 .shapeOrange{
     position:absolute;
     transform:rotateZ(180deg);
@@ -43,6 +44,98 @@ background-color:var(--black);
 
     .ativo button{
         background-color:var(--orange);
+    }
+
+}
+
+@media(max-width:1350px){
+    .myPort{
+        font-size:1.7rem;
+    }
+    .motionsPainel{
+        margin-left:-190px;
+        .content{
+            h1{
+            font-size:1.4rem;
+        }
+        p{
+            font-size:.9rem;
+        }
+        }
+        .paineis{
+            .quadradoOne{
+                width:300px;
+                height:200px;
+            }
+            .quadradoTwo{
+                width:300px;
+                height:200px;
+            }
+        }
+    }
+}
+@media(max-width:975px){
+    .motionsPainel:last-child{
+        margin-left:-320px;
+    }
+    .myPort{
+        font-size:1.7rem;
+    }
+    .motionsPainel{
+        .content{
+            h1{
+            font-size:1.2rem;
+        }
+        p{
+            font-size:.7rem;
+        }
+        }
+        .paineis{
+            .quadradoOne{
+                width:290px;
+                height:190px;
+            }
+            .quadradoTwo{
+                width:290px;
+                height:190px;
+            }
+        }
+    }
+}
+
+@media(max-width:575px){
+
+    .buttonsNavProjects{
+        right:5px;
+    }
+
+    .motionsPainel:last-child{
+        margin-left:-450px;
+    }
+    .myPort{
+        font-size:1.5rem;
+        margin-top:-80px;
+    }
+    .motionsPainel{
+        margin-top:15px;
+        .content{
+            h1{
+            font-size:1rem;
+        }
+        p{
+            font-size:.7rem;
+        }
+        }
+        .paineis{
+            .quadradoOne{
+                width:200px;
+                height:100px;
+            }
+            .quadradoTwo{
+                width:200px;
+                height:100px;
+            }
+        }
     }
 
 }
