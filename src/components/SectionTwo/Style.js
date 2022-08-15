@@ -121,7 +121,7 @@ padding-right:20px;
     }
     .motionsPainel{
         margin:auto;
-        margin-left:0;
+        margin-left:10px;
         margin-top:15px;
         .content{
             margin:auto;
@@ -134,7 +134,17 @@ padding-right:20px;
             text-align:center;
             width:250px;
             margin:auto;
-            font-size:.7rem;
+            font-size:1rem;
+            margin-bottom:10px;
+        }
+
+        .tecs{
+            width:300px;
+            .iconesTec{
+                img + img{
+                    margin-left:4px;
+                }
+            }
         }
         }
         .paineis{

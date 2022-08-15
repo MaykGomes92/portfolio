@@ -6,27 +6,31 @@ import { motion } from 'framer-motion';
 
 const PaineisProject = ({ nameProject, descricao, linkProjeto, linkGithub, imgProject, mLeft, html, css, js, reactRouter, react, styledComp }) => {
 
-   
-    const variantAnimation = window.innerWidth > 750 ?{
-        variantA:{
-            opacity:0,
-            x:40,
-            y:40,
+    const media = window.matchMedia('(max-width: 480px)')
+
+    const variantAnimation = media.matches ? {
+        variantA: {
+            opacity: 0,
+            x: 15,
+            y: 15,
         },
-        variantB:{
-            opacity:[0,.5,1,0,.6,1],
-            x:-30,
-            y:-30,
-            transition:{delay:.8,duration:1},
+        variantB: {
+            opacity: [0, .5, 1, 0, .6, 1],
+            x: -15,
+            y: -15,
+            transition: { delay: .8, duration: 1 },
         }
     } : {
-        variantA:{
-            x:20,
-            y:20,
+        variantA: {
+            opacity: 0,
+            x: 40,
+            y: 40,
         },
-        variantB:{
-            x:-15,
-            y:-15,
+        variantB: {
+            opacity: [0, .5, 1, 0, .6, 1],
+            x: -40,
+            y: -40,
+            transition: { delay: .8, duration: 1 },
         }
     }
 
@@ -34,13 +38,13 @@ const PaineisProject = ({ nameProject, descricao, linkProjeto, linkGithub, imgPr
         <S.PaineisProject>
             <div className="paineis" style={{ marginLeft: mLeft }}>
                 <div className="quadradoOne">
-                    <img src={imgProject} alt='Imagem do projeto'/>
+                    <img src={imgProject} alt='Imagem do projeto' />
                 </div>
                 <motion.div className="quadradoTwo"
-                 variants={variantAnimation}
-                 initial='variantA'
-                 animate='variantB'
-                 />
+                    variants={variantAnimation}
+                    initial='variantA'
+                    animate='variantB'
+                />
             </div>
 
             <div className='content'>

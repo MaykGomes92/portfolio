@@ -74,7 +74,7 @@ h1{
         justify-content: center;
         width:80%;
         div + div{
-            margin-left:70px;
+            margin-left:85px;
         }
     }
     .creditos{

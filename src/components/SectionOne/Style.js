@@ -136,9 +136,9 @@ export const SectionOne = styled.section`
     text-align:center;
     margin:auto;
   }
-
+  
   .sobreMim{
-      flex-direction:column;
+    flex-direction:column;
       margin:auto;
       .painel{
           margin:auto;
@@ -160,7 +160,16 @@ export const SectionOne = styled.section`
 
 @media(max-width:575px){
   .sobreMim{
-
+    margin-top:50px;
+    .textoBio{
+      padding:10px;
+      #firstText{
+        font-size:1rem;
+      }
+      #secondText{
+        font-size:1rem;
+      }
+    }
     .quadradoOne{
       width:250px;
       height:250px;
@@ -170,5 +179,6 @@ export const SectionOne = styled.section`
       height:250px;
     }
   }
+
 }
 `;

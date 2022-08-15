@@ -220,14 +220,22 @@ export const Main = styled.main`
   }
 
   @media (max-width:975px){
+    #logo{
+      z-index:999;
+      width:30px;
+      margin:inherit;
+      margin-left:12px;
+      margin-top:40px;
+    }
     .information {
+      margin-top:150px;
       .sobre {
         h1 {
           position:relative;
         z-index:9999;
         font-style: normal;
         font-weight: 700;
-        font-size: 80px;
+        font-size: 70px;
         line-height: 97px;
         letter-spacing: 0.02em;
         color: var(--white);
@@ -240,7 +248,7 @@ export const Main = styled.main`
         z-index:9999;
         font-style: normal;
         font-weight: 500;
-        font-size: 36px;
+        font-size: 30px;
         line-height: 44px;
         letter-spacing: 0.02em;
         color: var(--white);
