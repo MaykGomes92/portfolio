@@ -90,7 +90,7 @@ export const PaineisProject = styled.div`
             font-size:20px;
             transition:.3s;
             :hover{
-                color:var(--orange);
+                color:#4169E1;
             }
         }
         .gitHubProject{
@@ -99,7 +99,7 @@ export const PaineisProject = styled.div`
             font-size:20px;
             transition:.3s;
             :hover{
-                color:var(--orange);
+                color:#4169E1;
             }
         }
     }
