@@ -67,10 +67,11 @@ export const SectionOne = styled.section`
       position: relative;
       width: 450px;
       height: 490px;
-      background: var(--white);
       margin-left: 147px;
+      margin-right:30px;
       margin-top: 127px;
       z-index: 99;
+      background: linear-gradient(120deg,orange 85%,gold);
       img {
         width: 100%;
         border-radius: 50%;
