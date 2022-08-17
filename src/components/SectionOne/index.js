@@ -30,18 +30,11 @@ const SectionOne = () => {
         </div>
         <div className="textoBio">
           <h1 id="firstText">
-            <span>L</span>orem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has bee release of Letraset sheets
-            containing Lorem Ipsum passages, and more recently with desktop
-            publishing software like Aldus PageMaker including versions of Lorem
-            Ipsum.
+            <span>O</span>lá o/, Me chamo Mayk Gomes, sou do Rio de Janeiro e sou desenvolvedor Front-End.
+            Comecei minha jornada em 2020, e sempre sabendo o que eu queria, apaixonado por tecnologia, sempre soube que não poderia ser de outra área além dessa.
           </h1>
           <h1 id="secondText">
-            <span>L</span>orem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has bee release of Letraset sheets
-            containing Lorem Ipsum passages, and more recently with desktop
-            publishing software like Aldus PageMaker including versions of Lorem
-            Ipsum.
+            <span>A</span> procura de sempre evoluir, continuarei em frente, aprendendo novas Tecnologias, Frameworks e enfrentando desafios. Sempre em busca e disposto a me reinventar.<br/>Seja bem vindo ao meu Portfólio o/
           </h1>
         </div>
       </div>
