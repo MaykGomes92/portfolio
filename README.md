@@ -12,11 +12,9 @@
 * Framer-Motion  
 * React-Icons  
 * HTML5  
-* CSS3    
+* CSS3 
 
-![image](https://user-images.githubusercontent.com/77819811/184049270-8cf54d01-abd9-44f0-8a65-dca6e6045f9b.png)
-  
-![image](https://user-images.githubusercontent.com/77819811/184813467-25c5f917-3516-465d-acc9-c8ef93039896.png)
+![Captura da Web_17-8-2022_173531_portfolio-delta-three-11 vercel app](https://user-images.githubusercontent.com/77819811/185238133-a609b03d-c76c-4ee3-a4fd-c1b9fefa3dac.jpeg)
 
 ## Projeto Responsivo
 ![image](https://user-images.githubusercontent.com/77819811/184814701-1037fabf-9f77-4c9e-a0c2-b43d495b7e5f.png)
