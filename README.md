@@ -14,7 +14,7 @@
 * HTML5  
 * CSS3 
 
-![Captura da Web_17-8-2022_173531_portfolio-delta-three-11 vercel app](https://user-images.githubusercontent.com/77819811/185238133-a609b03d-c76c-4ee3-a4fd-c1b9fefa3dac.jpeg)
+![image](https://user-images.githubusercontent.com/77819811/185775916-a6f21d54-b15a-4726-898d-3706dce287b9.png)
 
 ## Projeto Responsivo
 ![image](https://user-images.githubusercontent.com/77819811/184814701-1037fabf-9f77-4c9e-a0c2-b43d495b7e5f.png)
