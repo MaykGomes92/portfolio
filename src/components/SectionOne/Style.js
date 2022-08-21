@@ -71,10 +71,10 @@ export const SectionOne = styled.section`
       margin-right:30px;
       margin-top: 127px;
       z-index: 99;
-      background: linear-gradient(120deg,orange 85%,gold);
+      background: linear-gradient(140deg,black 80%,var(--orange-escuro));
       img {
-        width: 100%;
-        border-radius: 50%;
+        width:100%;
+        height:100%;
       }
     }
 

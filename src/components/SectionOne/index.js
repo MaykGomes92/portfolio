@@ -1,6 +1,6 @@
 import React from "react";
 import * as S from "./Style";
-import myImg from "../../assets/imgPerfil.jpg";
+import myImg from "../../assets/picwish.png";
 import {
   motion,
   useTransform,
