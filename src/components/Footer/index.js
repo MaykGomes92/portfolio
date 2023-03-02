@@ -15,7 +15,7 @@ const index = () => {
       <Button imgRede={<BsWhatsapp />} link='https://api.whatsapp.com/send?phone=5521980748627&text=Ol%C3%A1%2C%20fique%20a%20vontade%20para%20mandar%20uma%20mensagem%20o%2F' />
       </div>
 
-      <p className='creditos'>Produzido por <span>Leonam Santtana</span> e <span className='desenvol'>Desenvolvido por Mayk Gomes.</span></p>
+      <p className='creditos'><span className='desenvol'>Desenvolvido por Mayk Gomes.</span></p>
     </S.Footer>
   )
 }
