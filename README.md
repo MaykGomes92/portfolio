@@ -24,7 +24,5 @@
 Tentei aplicar a maioria do meu conhecimento nesse projeto, faltou muito coisa para mostrar ainda,
 e o intuito é continuar evoluindo e acrescentando novas coisas nele.  
 Estarei sempre atualizando, adicionando novos projetos, e trocando os antigos por novos, deixando o site
-sempre atualizado.
-Foi um site que desenvolvi a partir de um design do Figma, criado por um amigo Designer já integrado na área, Leonam Santana.
-  
+sempre atualizado.  
 ## o/ 
