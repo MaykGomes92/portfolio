@@ -138,7 +138,7 @@ const SectionTwo = () => {
   return (
     <S.SectionTwo>
       <img id='shapeSectionTwo' className='shapeOrange' src={shape} alt='borda laranja' />
-      <h1 className='myPort'>Meu <span>Portfólioo</span></h1>
+      <h1 className='myPort'>Meu <span>Portfólio</span></h1>
 
       <div className='buttonsNavProjects'>
         <p onClick={() => setButtonNavAtivo(1)} className={buttonNavAtivo === 1 ? 'ativo' : ''}>
