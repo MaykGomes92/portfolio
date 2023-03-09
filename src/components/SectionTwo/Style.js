@@ -103,6 +103,12 @@ padding-right:20px;
     }
 }
 
+@media(max-width:790px){
+    .shapeOrange {
+        width:200px;
+    }
+}
+
 @media(max-width:575px){
 
     .buttonsNavProjects{

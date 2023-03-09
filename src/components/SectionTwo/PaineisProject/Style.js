@@ -105,6 +105,109 @@ export const PaineisProject = styled.div`
     }
 }
 
+
+
+
+
+
+
+
+
+@media(max-width:790px){
+    flex-wrap:wrap;
+    justify-content:center;
+    text-align:center;
+    .content{
+        width:40%;
+        margin-top:30px;
+        margin-left:0px;
+        margin-right:90px;
+        justify-content:center;
+        margin-left:auto;
+        h1{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: 0.02em;
+        color: var(--orange);
+    }
+    p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 160%;
+        letter-spacing: 0.02em;
+        color: var(--white);
+        max-width:542px;
+        width:100%;
+        margin-top:6px;
+    }
+
+    .tecs{
+        margin-bottom:10px;
+        p{
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 0.02em;
+            color: var(--orange);
+            margin-top:15px;
+        }
+
+        .iconesTec{
+            margin-top:18px;
+            margin-bottom: 20px;
+            max-width:450px;
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            img{
+                height:18px;
+                margin-top:10px;
+            }
+            img + img{
+                margin-left:15px;
+            }
+        }
+
+        .linkProject{
+            color:var(--white);
+            margin-right:32.39px;
+            cursor:pointer;
+            font-size:20px;
+            transition:.3s;
+            :hover{
+                color:#4169E1;
+            }
+        }
+        .gitHubProject{
+            color:var(--white);
+            cursor:pointer;
+            font-size:20px;
+            transition:.3s;
+            :hover{
+                color:#4169E1;
+            }
+        }
+    }
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width:575px){
     display:flex;
     align-items:flex-start;

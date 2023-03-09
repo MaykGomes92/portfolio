@@ -20,6 +20,7 @@ export const Buttons = styled.div`
             left:15px;
             cursor:pointer;
             transition:.5s;
+            color:white;
             :hover{
                 bottom:0;
                 left:0;
@@ -33,7 +34,7 @@ export const Buttons = styled.div`
         }
     }
 
-    @media(max-width: 875px){
+    @media(max-width: 910px){
         .container{
             width:40px;
          .btnPrincipal{
