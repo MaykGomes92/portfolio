@@ -4,8 +4,6 @@ import Button from './ButtonsFooter/index'
 import { AiOutlineGithub } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
-import { VscFilePdf } from "react-icons/vsc";
-import curriculo from '../../assets/curric-ofic-ex-pt.pdf'
 const index = () => {
   return (
     <S.Footer id='footerLink'>
@@ -15,10 +13,8 @@ const index = () => {
       <Button imgRede={<AiOutlineGithub />} link='https://github.com/MaykGomes92' />
       <Button imgRede={<BsLinkedin />} link='https://www.linkedin.com/in/mayk-gomes-11b86222b/' />
       <Button imgRede={<BsWhatsapp />} link='https://api.whatsapp.com/send?phone=5521980748627&text=Ol%C3%A1%2C%20fique%20a%20vontade%20para%20mandar%20uma%20mensagem%20o%2F' />
-      <Button imgRede={<VscFilePdf />} link={curriculo} optionDownload='download'/>
+      
       </div>
-
-      <p className='creditos'><span className='desenvol'>Desenvolvido por Mayk Gomes.</span></p>
     </S.Footer>
   )
 }

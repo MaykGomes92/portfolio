@@ -144,13 +144,15 @@ export const PaineisProject = styled.div`
         .quadradoOne {
             margin-left:-150px;            
         }
-    .quadradoTwo {
-        margin-left:-150px;
+        .quadradoTwo {
+            margin-left:-150px;
         }
-}
-
-.content{
-    margin-top:8px;
+    }
+    margin-left:-20px;
+    
+    .content{
+        margin-top:8px;
+        width:50%;
     margin-left:10px;
     margin-top:25px;
     margin:auto;
@@ -166,6 +168,7 @@ export const PaineisProject = styled.div`
         .iconesTec{
             margin:auto;
             margin-bottom:20px;
+            margin-left:-30px;
             img{
             text-align:center;
                 margin:auto;

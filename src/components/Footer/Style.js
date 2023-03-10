@@ -37,26 +37,6 @@ h1{
         margin-top:8px;
     }
 
-    .creditos{
-        font-style: normal;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 17px;
-        letter-spacing: 0.02em;
-        color: var(--white);
-        width:100%;
-        text-align:left;
-        margin-top:200px;
-        padding-bottom:5px;
-        margin-left:30px;
-        span{
-            color:var(--orange-escuro);
-        }
-        .desenvol{
-            color:var(--orange);
-        }
-    }
-
     @media(max-width: 575px){
         margin:auto;
         h1{
