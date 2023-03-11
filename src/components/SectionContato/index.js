@@ -16,7 +16,7 @@ const Index = () => {
       <div className='contentForm'>
 
         <section className='sectionLeftPdf'>
-          <h2>Meu curriculo</h2>
+          <h2>Meu currículo</h2>
           <AiOutlineArrowDown className='arrowCurriculo'/>
           <a href={curriculo} download>{<VscFilePdf />}</a>
         </section>
