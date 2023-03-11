@@ -1,6 +1,7 @@
 import React from 'react'
 import * as S from './Style'
 import { VscFilePdf } from "react-icons/vsc";
+import { AiOutlineArrowDown } from "react-icons/ai";
 import curriculo from '../../assets/curric-ofic-ex-pt.pdf'
 const Index = () => {
 
@@ -15,6 +16,8 @@ const Index = () => {
       <div className='contentForm'>
 
         <section className='sectionLeftPdf'>
+          <h2>Meu curriculo</h2>
+          <AiOutlineArrowDown className='arrowCurriculo'/>
           <a href={curriculo} download>{<VscFilePdf />}</a>
         </section>
 

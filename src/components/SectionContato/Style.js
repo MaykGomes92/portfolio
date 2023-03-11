@@ -21,6 +21,8 @@ align-items:center;
         color: var(--white);
         width:100%;
         margin-top:15px;
+        margin-left:15px;
+        margin-bottom:5px;
         span{
             color:var(--orange-escuro);
         }
@@ -36,7 +38,7 @@ h1{
 .contentForm {
     display:flex;
     flex-wrap:wrap;
-    width:55%;
+    width:70%;
     justify-content:center;
     border:2px solid var(--orange-escuro);
     border-radius:20px;
@@ -45,9 +47,34 @@ h1{
         max-width:500px;
         width:100%;
         display:flex;
+        flex-direction:column;
         align-items:center;
         justify-content:center;
+
+        .arrowCurriculo{
+            margin-top:10px;
+            font-size:3rem;
+
+            animation:topAndDownArrow 1.5s ease infinite;
+        }
+
+        @keyframes topAndDownArrow {
+            33%{
+                padding-top:0px
+            } 66%{
+                padding-bottom:10px
+            } 99%{
+                padding-bottom:0px;
+            }
+        }
+
+        h2{
+            letter-spacing:4px;
+            font-size:1.3rem;
+            color:whitesmoke;
+        }
  a{
+    margin-top:15px;
      border-radius:5px;
      padding:25px;
      border:2px solid var(--orange-escuro);
@@ -111,12 +138,15 @@ h1{
         }
     }
 }
-h1{
-    color:white;
+
 }
 
 
+@media (max-width:930px){
 
+h1{
+    text-align:center;
+}
 }
 
 @media (max-width:570px){
@@ -137,4 +167,5 @@ h1{
     }
 
 }
+
 `
