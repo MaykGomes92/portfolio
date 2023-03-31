@@ -53,7 +53,7 @@ const SectionTwo = () => {
             initial='variantA'
             animate='variantB'>
             <PaineisProject html={html} css={css} js={js} react={react} styledComp={styledComp} reactRouter={reactRouter}
-              linkProjeto='https://global-series.vercel.app/' linkGithub='https://github.com/MaykGomes92/Global-Series' imgProject={projeto1} nameProject='Website Séries' descricao=' O projeto consiste em ser um site de séries completo, tendo todas as séries populares e existentes da api IMDb.' mLeft='228px' />
+              linkProjeto='https://global-series.vercel.app/' linkGithub='https://github.com/MaykGomes92/Global-Series' imgProject={projeto1} nameProject='Global Séries' descricao=' O projeto consiste em ser um site de séries completo, tendo todas as séries populares e existentes da api IMDb.' mLeft='228px' />
           </motion.div>
 
           className='motionsPainel'
