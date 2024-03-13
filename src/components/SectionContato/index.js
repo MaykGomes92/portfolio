@@ -2,7 +2,7 @@ import React from 'react'
 import * as S from './Style'
 import { VscFilePdf } from "react-icons/vsc";
 import { AiOutlineArrowDown } from "react-icons/ai";
-import curriculo from '../../assets/curric-ofic-ex-pt-prog.pdf'
+import curriculo from '../../assets/curriculo-mayk-gomes-program-2024-001.pdf'
 const Index = () => {
 
   const [contato, setContato] = React.useState({
