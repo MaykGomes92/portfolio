@@ -12,7 +12,7 @@ const index = () => {
       <div className='buttonsNav'>
       <Button imgRede={<AiOutlineGithub />} link='https://github.com/MaykGomes92' />
       <Button imgRede={<BsLinkedin />} link='https://www.linkedin.com/in/mayk-gomes-11b86222b/' />
-      <Button imgRede={<BsWhatsapp />} link='https://api.whatsapp.com/send?phone=5521980748627&text=Ol%C3%A1%2C%20fique%20a%20vontade%20para%20mandar%20uma%20mensagem%20o%2F' />
+      <Button imgRede={<BsWhatsapp />} link='https://api.whatsapp.com/send?phone=55219807627607&text=Ol%C3%A1%2C%20fique%20a%20vontade%20para%20mandar%20uma%20mensagem%20o%2F' />
       
       </div>
     </S.Footer>
