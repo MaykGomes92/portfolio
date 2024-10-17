@@ -66,7 +66,7 @@ const SectionOne = () => {
         <BsLinkedin id="iconLinkedin" />
       </a>
       <a
-        href="https://api.whatsapp.com/send?phone=5521980748627&text=Ol%C3%A1%2C%20fique%20a%20vontade%20para%20mandar%20uma%20mensagem%20o%2F"
+        href="https://api.whatsapp.com/send?phone=5521980762760&text=Ol%C3%A1%2C%20fique%20a%20vontade%20para%20mandar%20uma%20mensagem%20o%2F"
         target="_blank"
         rel="noopener"
       >
